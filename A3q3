@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>Decendent Selector</Title>
+      <style>
+          section li {
+              color: navy;
+          }
+          li{
+              color: lime;
+          }
+          article > ol > li{
+              color: mediumvioletred;
+          }
+      </style>  
+    </head>
+    <body>
+        <h1>Decendent Selector</h1>
+        <section>
+        Table contents:
+        <ol>
+            <li>Non-veg good</li>
+            <li>Fast Food</li>
+            <li>fruits</li>
+
+        </ol> 
+    </section>
+    <article>
+        Shopping List:
+        <ol>
+            <li>Chicken</li>
+            <li>pizza</li>
+            <li>Apples</li>
+
+        </ol>
+    </article>
+    <ol>
+        <li>Chicken</li>
+        <li>pizza</li>
+        <li>Apples</li>
+        
+    </ol> 
+    </body>
+</html>
